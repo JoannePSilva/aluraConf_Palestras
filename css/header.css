@@ -50,18 +50,6 @@
     margin-top: 8px;
 }
 
-.header .jumbotron .button {
-    color: rgb(17, 17, 17);
-    padding: 16px;
-    background: rgba(0, 0, 0, 0.3);
-    border-radius: 4px;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: background-color 0.3s;
-    color: white;
-
- }
-
 .header .panel-subscribe {
 
     margin-top: 28px;

@@ -2,3 +2,38 @@
     width: 96%;
     margin: 0 auto;
 }
+.field {
+    margin-bottom: 16px;
+}
+
+.field label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.field .field-input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #48A2A6; 
+}
+.button {
+    color: rgb(17, 17, 17);
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+    color: white;
+
+ }
+ 
+ .button-place {
+    text-align: center;
+}

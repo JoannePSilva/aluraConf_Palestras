@@ -1,7 +1,9 @@
 .panel-speakers {
 
+    margin: 8 16px 32px 8;
     padding-top: 40px;
     background: #61c2fa;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .panel-speakers .about-speakers {
 
@@ -22,7 +24,7 @@
     margin-bottom: 16px;
 }
 
-.panel-speakers .speaker {
+.panel-speakers .speakers {
     text-align: center;
     display: inline-block;
     width: 250px;
