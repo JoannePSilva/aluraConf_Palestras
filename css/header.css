@@ -7,11 +7,13 @@
   
   .header .main-menu {
     text-align: center;
+    line-height: 35px;
   }
   
   .header .main-menu .menu-item {
     display: inline-block;
     margin: 0 2px 22px 0;
+    line-height: 35px;
   }
 
 .header .main-menu .menu-item a {
@@ -46,8 +48,13 @@
 
 .jumbotron .subtitle {
     font-size: 2em;
-    color: rgb(41, 4, 59);
+    color:rgb(230, 10, 131);
     margin-top: 8px;
+}
+
+.jumbotron .data{
+  font-size:1em;
+  color: white;
 }
 
 .header .panel-subscribe {
@@ -89,10 +96,16 @@
     color: rgb(41, 4, 59);
 }
 
+.panel-subscribe a:hover {
+
+  background-color: rgb(38, 82, 82);
+}
 .about-description{
-    padding: 0 0 44px 0;
+    padding: 0 0 50px 0;
     text-align: center;
     margin: 0 40px;
     line-height: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
 
 }
