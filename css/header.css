@@ -1,0 +1,110 @@
+
+.header {
+    background: url('../img/fdestaque.png') no-repeat;
+    background-size: cover;
+    padding-top: 32px;
+  }
+  
+  .header .main-menu {
+    text-align: center;
+  }
+  
+  .header .main-menu .menu-item {
+    display: inline-block;
+    margin: 0 2px 22px 0;
+  }
+
+.header .main-menu .menu-item a {
+
+    color: white;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+  }
+
+.header .main-menu .menu-item a:hover {
+
+    background-color: rgb(38, 82, 82);
+  }
+
+.header .jumbotron {
+    padding: 0 0 44px 0;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      
+  }
+ 
+.jumbotron .title{
+    font-size: 2.6em;
+    color:darkmagenta;
+}
+
+.jumbotron .subtitle {
+    font-size: 2em;
+    color: rgb(41, 4, 59);
+    margin-top: 8px;
+}
+
+.header .jumbotron .button {
+    color: rgb(17, 17, 17);
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+    color: white;
+
+ }
+
+.header .panel-subscribe {
+
+    margin-top: 28px;
+  }
+
+  
+@media(min-width: 650px) {
+
+    .header .jumbotron {
+
+        font-size: 28px;
+    }
+
+}
+
+.panel-about{
+    margin-top: 20px;
+    padding: 0 0 44px 0;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+}
+
+.panel-about .title{
+    font-weight: bold;
+    margin-bottom: 16px;
+    font-size: 1.3em;
+    color:darkmagenta;
+
+}
+
+.panel-about .subtitle {
+    font-size: 1em;
+    margin-bottom: 16px;
+    color: rgb(41, 4, 59);
+}
+
+.about-description{
+    padding: 0 0 44px 0;
+    text-align: center;
+    margin: 0 40px;
+    line-height: 35px;
+
+}
